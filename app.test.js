@@ -24,6 +24,6 @@ describe("API Endpoints", () => {
     // Test against the running server
     const res = await request(server).get("/");
     expect(res.statusCode).toEqual(200);
-    expect(res.text).toContain("Welcome to the CI/CD Workshop App!");
+    expect(res.text).toContain("Welcome to the CI/CD Workshop!");
   });
 });
